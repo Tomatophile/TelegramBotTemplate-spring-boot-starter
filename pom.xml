@@ -13,7 +13,7 @@
 
     <groupId>org.telegram.tomatophile</groupId>
     <artifactId>TelegramBotTemplate</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
