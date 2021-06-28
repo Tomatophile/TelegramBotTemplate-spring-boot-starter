@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.telegram.tomatophile.bottemplate.config.ProcessedConfig,\
+org.telegram.tomatophile.bottemplate.config.UpdateHandlerConfig,\
+org.telegram.tomatophile.bottemplate.config.UpdateReceiverConfig
