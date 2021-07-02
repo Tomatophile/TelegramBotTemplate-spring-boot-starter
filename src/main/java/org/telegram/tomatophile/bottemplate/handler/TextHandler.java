@@ -18,7 +18,7 @@ public class TextHandler implements UpdateHandler{
 
         for(var text : texts){
             if(message.getText().equals(text.getText())){
-                return text.process(message.getChatId().toString());
+                return text.process(update);
             }
         }
 

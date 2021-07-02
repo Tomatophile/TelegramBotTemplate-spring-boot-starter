@@ -19,7 +19,7 @@ public class CallbackQueryHandler implements UpdateHandler{
 
         for(var callback : callbacks){
             if(callback.getData().equals(callbackQuery.getData())){
-                return callback.process(callbackQuery.getMessage().getChatId().toString());
+                return callback.process(update);
             }
         }
 

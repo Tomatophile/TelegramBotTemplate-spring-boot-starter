@@ -18,7 +18,7 @@ public class CommandHandler implements UpdateHandler{
 
         for(var command : commands){
             if(message.getText().startsWith(command.getCommand())){
-                return command.process(message.getChatId().toString());
+                return command.process(update);
             }
         }
 
